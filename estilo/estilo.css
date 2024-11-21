@@ -130,6 +130,18 @@ div#insta a:hover{
     border-radius: 10px 0px;
 }
 
+aside p a {
+    text-align: left; /* Alinha o conteúdo do link à esquerda */
+    padding-left: 10px; /* Adiciona um pequeno espaçamento antes do texto */
+}
+
+aside a, aside p {
+    display: block; 
+    width: 290px;
+    margin: 0 auto; /* Centraliza o elemento */
+    text-align: center; /* Alinha o texto no centro */
+}
+
 aside a{
     color: white;
     font-size: 35px;
@@ -137,12 +149,12 @@ aside a{
     text-decoration: none;
     outline: 5px white solid;
     padding: 3px;
+    box-sizing: border-box;
 }
 
 aside p{
     text-align: center;
     margin-top: 30px;
-
 }
 
 aside a:hover{
@@ -152,4 +164,6 @@ aside a:hover{
     border-radius: 10px 0px;
     text-decoration: underline;
     color: black;
+    padding-left: 10px;
+    padding: 10px;
 }
