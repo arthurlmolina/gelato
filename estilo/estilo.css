@@ -112,17 +112,43 @@ main > p{
     font-size: 25px;
 }
 
-a{
+div#insta a{
     text-decoration: none;
     color: black;
     font-family: 'dela-gothic';
     font-size: 55px;
+    outline: 5px black solid;
+    padding: 3px;
 
 }
 
-a:hover{
+div#insta a:hover{
     text-decoration: underline;
     background-color: #7dccaf;
-    padding: 2px;
+    padding: 3px;
     transition-duration: 0.2s;
+    border-radius: 10px 0px;
+}
+
+aside a{
+    color: white;
+    font-size: 35px;
+    font-family: 'clone-medium';
+    text-decoration: none;
+    outline: 5px white solid;
+    padding: 3px;
+}
+
+aside p{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+aside a:hover{
+    background-color: #fbbb9f;
+    transition-duration: 0.2s;
+    padding: 3px;
+    border-radius: 10px 0px;
+    text-decoration: underline;
 }
