@@ -46,18 +46,9 @@
     src: url('../fontes/CLONE_ROUNDED_LATIN/clone-rounded-latin-thin.ttf') format('truetype');
 }
 
-body{
+html, body{
     background-color: black;
 }
-/*
-header > h1{
-    font-family: 'dela-gothic';
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 58px;
-    color: white;
-}
-*/
 
 header > h2{
     color: white;
@@ -117,7 +108,7 @@ div#insta a{
     color: black;
     font-family: 'dela-gothic';
     font-size: 55px;
-    outline: 5px black solid;
+    outline: 4px black solid;
     padding: 3px;
 
 }
@@ -125,7 +116,7 @@ div#insta a{
 div#insta a:hover{
     text-decoration: underline;
     background-color: #7dccaf;
-    padding: 3px;
+    padding: 10px;
     transition-duration: 0.2s;
     border-radius: 10px 0px;
 }
@@ -147,7 +138,7 @@ aside a{
     font-size: 35px;
     font-family: 'clone-medium';
     text-decoration: none;
-    outline: 5px white solid;
+    outline: 3px white solid;
     padding: 3px;
     box-sizing: border-box;
 }
