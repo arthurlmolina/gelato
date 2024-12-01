@@ -78,7 +78,7 @@ div#foto{
     align-items: center;
     border-radius: 0px 0px 20px 20px;
     background-color: white;
-    border-radius: 
+
 }
 
 p#principal{
@@ -132,6 +132,7 @@ aside a{
 aside p{
     text-align: center;
     margin-top: 30px;
+    width: 278px; /* Define the width to match the div#foto */
 }
 
 aside a:hover{
@@ -143,4 +144,5 @@ aside a:hover{
     color: black;
     padding-left: 10px;
     padding: 10px;
+
 }
