@@ -66,59 +66,46 @@ main > a{
     color: white;
 }
 
-div#insta{
-    background-color: white;
-    min-width: 230px;
-    max-width: 500px;
-    border-left: 30px;
+div#foto{
+    /*min-width: 230px;
+    max-width: 500px;*/
+    width: 278px;
+    height: 400px;
     border-right: 30px;
+    border-left: 30px;
     margin: auto;
     min-height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 20px 20px;
+    background-color: white;
 }
 
-main > p#principal{
+p#principal{
     padding: 10px 0 ;
     text-align: center;
     font-family: 'clone-extra-bold';
     background-color: #73c2e5;
-    min-width: 250px;
-    max-width: 500px;
+    width: 278px;
     margin: auto;
     border-radius: 20px 20px 0px 0px;
     font-size: 25px;
 }
 
-main > p{
+main > p#insta{
     padding: 0px 0px 10px 0px;
     text-align: center;
-    font-family: 'clone-extra-bold';
-    background-color: #73c2e5;
-    min-width: 250px;
-    max-width: 500px;
-    margin: auto;
-    font-size: 25px;
-}
-
-div#insta a{
-    text-decoration: none;
-    color: black;
     font-family: 'dela-gothic';
-    font-size: 55px;
-    outline: 4px black solid;
-    padding: 3px;
-
+    background-color: #73c2e5;
+    width: 278px;
+    margin: auto;
+    font-size: 25px;    
+    color: white;
 }
 
-div#insta a:hover{
-    text-decoration: underline;
-    background-color: #7dccaf;
-    padding: 10px;
-    transition-duration: 0.2s;
-    border-radius: 10px 0px;
+a#ainsta{
+    color: rgb(255, 255, 255);
 }
 
 aside p a {
