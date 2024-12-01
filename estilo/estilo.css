@@ -67,8 +67,6 @@ main > a{
 }
 
 div#foto{
-    /*min-width: 230px;
-    max-width: 500px;*/
     width: 278px;
     height: 400px;
     border-right: 30px;
@@ -80,6 +78,7 @@ div#foto{
     align-items: center;
     border-radius: 0px 0px 20px 20px;
     background-color: white;
+    border-radius: 
 }
 
 p#principal{
@@ -89,7 +88,7 @@ p#principal{
     background-color: #73c2e5;
     width: 278px;
     margin: auto;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
     font-size: 25px;
 }
 
