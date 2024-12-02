@@ -48,13 +48,17 @@
 
 
 :root {
-    --azul: #73c2e5;
-    --bege: #fbbb9f;
+    --candy_blue: #73c2e5;
+    --creamy_cream: #fbbb9f;
+    --sweet_green: #7dccaf;
+    --royal_milk: #efdad0;
 }
 
 html, body{
     background-color: black;
+
 }
+
 
 header > h2{
     color: white;
@@ -65,6 +69,10 @@ header > h2{
     min-width: 258px;
     border-right: 5px;
     border-left: 5px;
+}
+
+img#logo{
+    width: 278px;
 }
 
 div#logo{
@@ -90,23 +98,24 @@ div#foto{
 
 }
 
-p#principal{
+p#acesse{
+    color: black;
     padding: 10px 0 ;
     text-align: center;
     font-family: 'clone-extra-bold';
-    background-color: var(--azul);
+    background-color: var(--candy_blue);
     width: 278px;
     margin: auto;
     border-radius: 7px 7px 0px 0px;
     font-size: 25px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.200);
 }
 
 main > p#insta{
     padding: 0px 0px 10px 0px;
     text-align: center;
     font-family: 'dela-gothic';
-    background-color: var(--azul);
+    background-color: var(--candy_blue);
     width: 278px;
     margin: auto;
     font-size: 25px;    
@@ -135,25 +144,24 @@ aside a{
     font-size: 27px;
     font-family: 'dela-gothic';
     text-decoration: none;
-    outline: 3px rgb(255, 255, 255) solid;
+    outline: 2.5px var(--sweet_green) solid;
     padding: 3px;
     box-sizing: border-box;
     width: 278px;
+    border-radius: 15px;
 }
 
 aside p{
     text-align: center;
     margin-top: 30px;
-
 }
 
 aside a:hover{
-    background-color: var(--bege);
+    background-color: var(--sweet_green);
     transition-duration: 0.2s;
-    border-radius: 10px 0px;
+
     text-decoration: underline;
     color: black;
     padding-left: 10px;
     padding: 7px;
-
 }
