@@ -71,13 +71,7 @@ header > h2{
     border-left: 5px;
 }
 
-img#honhop{
-    width: 278px;
-}
 
-img#maracuja{
-    width: 278px;
-}
 
 div#logo{
     text-align: center;
@@ -93,12 +87,10 @@ div#foto{
     border-right: 30px;
     border-left: 30px;
     margin: auto;
-    min-height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 20px 20px;
-    background-color: white;
 
 }
 
@@ -129,6 +121,14 @@ main > p#insta{
 a#ainsta{
     color: rgb(255, 255, 255);
 
+}
+
+img#honhop{
+    width: 278px;
+}
+
+img#maracuja{
+    width: 278px;
 }
 
 aside p a {
